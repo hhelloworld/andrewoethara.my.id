@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andj7367/public_html/
+    - mkdir -p $DEPLOYPATH
+    - /bin/cp -r dist/* $DEPLOYPATH
+    
